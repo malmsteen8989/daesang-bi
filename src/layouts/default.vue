@@ -1,14 +1,15 @@
+<!-- eslint-disable @typescript-eslint/indent -->
 <script lang="ts">
 import AppTopBar from '~/components/layouts/default/AppTopbar.vue';
 import AppMenu from '~/components/layouts/default/AppMenu.vue';
-import AppConfig from '~/components/layouts/default/AppConfig.vue';
+// import AppConfig from '~/components/layouts/default/AppConfig.vue';
 import AppFooter from '~/components/layouts/default/AppFooter.vue';
 
 export default {
   components: {
     AppTopBar,
     AppMenu,
-    AppConfig,
+    // AppConfig,
     AppFooter
   },
   data() {
@@ -19,114 +20,45 @@ export default {
       mobileMenuActive: false,
       menu: [
         {
-          label: 'Home',
+          label: 'Dashboard',
           items: [{
-            label: 'Dashboard', icon: 'pi pi-fw pi-home', to: '/'
+            label: 'Performance Highlight', icon: 'pi pi-fw pi-chart-bar', to: '/'
           }]
         },
         {
-          label: 'UI Components',
+          label: 'Sales & Distribution',
           icon: 'pi pi-fw pi-sitemap',
           items: [
-            { label: 'Form Layout', icon: 'pi pi-fw pi-id-card', to: '/demo/formlayout' },
-            { label: 'Input', icon: 'pi pi-fw pi-check-square', to: '/demo/input' },
-            { label: 'Float Label', icon: 'pi pi-fw pi-bookmark', to: '/demo/floatlabel' },
-            { label: 'Invalid State', icon: 'pi pi-fw pi-exclamation-circle', to: '/demo/invalidstate' },
-            { label: 'Button', icon: 'pi pi-fw pi-mobile', to: '/demo/button' },
-            { label: 'Table', icon: 'pi pi-fw pi-table', to: '/demo/table' },
-            { label: 'List', icon: 'pi pi-fw pi-list', to: '/demo/list' },
-            { label: 'Tree', icon: 'pi pi-fw pi-share-alt', to: '/demo/tree' },
-            { label: 'Panel', icon: 'pi pi-fw pi-tablet', to: '/demo/panel' },
-            { label: 'Overlay', icon: 'pi pi-fw pi-clone', to: '/demo/overlay' },
-            { label: 'Menu', icon: 'pi pi-fw pi-bars', to: '/demo/menu' },
-            { label: 'Message', icon: 'pi pi-fw pi-comment', to: '/demo/messages' },
-            { label: 'File', icon: 'pi pi-fw pi-file', to: '/demo/file' },
-            { label: 'Chart', icon: 'pi pi-fw pi-chart-bar', to: '/demo/chart' },
-            { label: 'Misc', icon: 'pi pi-fw pi-circle-off', to: '/demo/misc' }
+            { label: 'Overview', icon: 'pi pi-fw pi-cart-plus', to: '/dash/sales' }
           ]
         },
         {
-          label: 'UI Blocks',
+          label: 'Production',
           items: [
-            { label: 'Free Blocks', icon: 'pi pi-fw pi-eye', to: '/demo/blocks', badge: 'NEW' },
-            { label: 'All Blocks', icon: 'pi pi-fw pi-globe', url: 'https://www.primefaces.org/primeblocks-vue' }
+            { label: 'Trend', icon: ' pi pi-fw pi-arrow-right-arrow-left', to: '/dash/production' }
           ]
         },
         {
-          label: 'Pages',
+          label: 'Human Capital',
           icon: 'pi pi-fw pi-clone',
           items: [
-            { label: 'Crud', icon: 'pi pi-fw pi-user-edit', to: '/demo/pages/crud' },
-            { label: 'Timeline', icon: 'pi pi-fw pi-calendar', to: '/demo/pages/timeline' },
-            { label: 'Landing', icon: 'pi pi-fw pi-calendar', to: '/demo/pages/landing' },
-            { label: 'Login', icon: 'pi pi-fw pi-sign-in', to: '/login' },
-            { label: 'Not Found', icon: 'pi pi-fw pi-exclamation-circle', to: '/notfound' },
-            { label: 'Empty', icon: 'pi pi-fw pi-circle-off', to: '/demo/pages/empty' }
+            { label: 'Composition', icon: 'pi pi-fw pi-user-edit', to: '/dash/hcm' }
           ]
         },
         {
-          label: 'Menu Hierarchy',
+          label: 'Digital Marketing',
           icon: 'pi pi-fw pi-search',
           items: [
             {
-              label: 'Submenu 1',
-              icon: 'pi pi-fw pi-bookmark',
-              items: [
-                {
-                  label: 'Submenu 1.1',
-                  icon: 'pi pi-fw pi-bookmark',
-                  items: [
-                    { label: 'Submenu 1.1.1', icon: 'pi pi-fw pi-bookmark' },
-                    { label: 'Submenu 1.1.2', icon: 'pi pi-fw pi-bookmark' },
-                    { label: 'Submenu 1.1.3', icon: 'pi pi-fw pi-bookmark' }
-                  ]
-                },
-                {
-                  label: 'Submenu 1.2',
-                  icon: 'pi pi-fw pi-bookmark',
-                  items: [
-                    { label: 'Submenu 1.2.1', icon: 'pi pi-fw pi-bookmark' },
-                    { label: 'Submenu 1.2.2', icon: 'pi pi-fw pi-bookmark' }
-                  ]
-                }
-              ]
+              label: 'Youtube',
+              icon: 'pi pi-fw pi-youtube',
+              to: '/dash/youtube'
             },
             {
-              label: 'Submenu 2',
-              icon: 'pi pi-fw pi-bookmark',
-              items: [
-                {
-                  label: 'Submenu 2.1',
-                  icon: 'pi pi-fw pi-bookmark',
-                  items: [
-                    { label: 'Submenu 2.1.1', icon: 'pi pi-fw pi-bookmark' },
-                    { label: 'Submenu 2.1.2', icon: 'pi pi-fw pi-bookmark' },
-                    { label: 'Submenu 2.1.3', icon: 'pi pi-fw pi-bookmark' }
-                  ]
-                },
-                {
-                  label: 'Submenu 2.2',
-                  icon: 'pi pi-fw pi-bookmark',
-                  items: [
-                    { label: 'Submenu 2.2.1', icon: 'pi pi-fw pi-bookmark' },
-                    { label: 'Submenu 2.2.2', icon: 'pi pi-fw pi-bookmark' }
-                  ]
-                }
-              ]
+              label: 'Instagram',
+              icon: 'pi pi-fw pi-instagram',
+              to: '/dash/instagram'
             }
-          ]
-        },
-        {
-          label: 'Get Started',
-          items: [
-            {
-              label: 'Documentation',
-              icon: 'pi pi-fw pi-question',
-              command: () => {
-                window.location.href = '/documentation';
-              }
-            },
-            { label: 'View Source', icon: 'pi pi-fw pi-search', url: 'https://github.com/who-jonson/sakai-nuxt' }
           ]
         }
       ]
@@ -257,5 +189,5 @@ export default {
 </template>
 
 <style lang="scss">
-  @import '~/assets/styles/App.scss';
+@import '~/assets/styles/App.scss';
 </style>

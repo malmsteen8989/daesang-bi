@@ -1,0 +1,35 @@
+{
+    "gender": [ 
+        {"gender": "Man", "total": 890}, 
+        {"gender": "Woman", "total": 110}
+    ],
+    "education": [ 
+        {"education": "SLTA/SMU/SMK", "total": 100}, 
+        {"education": "Diploma 3 (D3)", "total": 200},
+        {"education": "Sarjana (S1)", "total": 630}, 
+        {"education": "Master (S2)", "total": 70}
+    ],
+    "age": [ 
+        {"age": "<26", "total": 140}, 
+        {"age": "26-30", "total": 160},
+        {"age": "31-40", "total": 330}, 
+        {"age": "41-45", "total": 170},
+        {"age": "46-50", "total": 180}, 
+        {"age": "51-55", "total": 20}
+    ],
+    "role": [ 
+        {"role": "Junior Staff", "total": 750}, 
+        {"role": "Supervisor", "total": 150}, 
+        {"role": "Manager", "total": 70}, 
+        {"role": "Senior Manager", "total": 20}, 
+        {"role": "Vice President", "total": 10}
+    ],
+    "achievement": [ 
+        {"name": "Arjuna Wiwangsa", "year": 2022}, 
+        {"name": "James White", "year": 2021}, 
+        {"name": "Putri Indah Ariesta", "year": 2020}, 
+        {"name": "Intan Dwi Santoso", "year": 2019}, 
+        {"name": "Anton Purboyo", "year": 2018}
+    ]
+
+}
