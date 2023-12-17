@@ -6,9 +6,9 @@
 			"name": "Corn Starch",
 			"description": "Corn Starch",
 			"image": "corn-starch.png",
-			"price": 8131,
+			"price": 7140,
 			"category": "Fert",
-			"quantity": 3881,
+			"quantity": 6780,
 			"inventoryStatus": "INSTOCK",
 			"rating": 5
 		},
@@ -18,9 +18,21 @@
 			"name": "Dextrose",
 			"description": "Dextrose",
 			"image": "dextrose.png",
-			"price": 4979,
+			"price": 4115,
 			"category": "Accessories",
-			"quantity": 2963,
+			"quantity": 4760,
+			"inventoryStatus": "INSTOCK",
+			"rating": 4
+		},
+		{
+			"id": "1004",
+			"code": "h456wer53",
+			"name": "Bio Miwon",
+			"description": "Bio Miwon",
+			"image": "bio-miwon.png",
+			"price": 42963,
+			"category": "Accessories",
+			"quantity": 386,
 			"inventoryStatus": "INSTOCK",
 			"rating": 4
 		},
@@ -32,34 +44,23 @@
 			"image": "miwon-plus.png",
 			"price": 30685,
 			"category": "Sambal",
-			"quantity": 128,
+			"quantity": 170,
 			"inventoryStatus": "LOWSTOCK",
 			"rating": 3
 		},
 		{
 			"id": "1003",
 			"code": "244wgerg2",
-			"name": "Inoorasa",
+			"name": "Indorasa",
 			"description": "Indorasa",
 			"image": "indorasa.png",
-			"price": 27888,
+			"price": 27890,
 			"category": "Clothing",
-			"quantity": 16,
+			"quantity": 20,
 			"inventoryStatus": "INSTOCK",
 			"rating": 5
-		},
-		{
-			"id": "1004",
-			"code": "h456wer53",
-			"name": "Bio Miwon",
-			"description": "Bio Miwon",
-			"image": "bio-miwon.png",
-			"price": 43420,
-			"category": "Accessories",
-			"quantity": 386,
-			"inventoryStatus": "INSTOCK",
-			"rating": 4
 		}
+		
 		
 	]
 }

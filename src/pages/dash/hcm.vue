@@ -141,9 +141,9 @@ export default {
       <ul class="list-none p-0 m-0">
         <li class="flex flex-column md:flex-row md:align-items-center md:justify-content-between mb-4">
           <div>
-            <span class="text-900 font-medium mr-2 mb-1 md:mb-0">Arjuna Wiwangsa</span>
+            <span class="text-900 font-medium mr-2 mb-1 md:mb-0">Wahyuddin</span>
             <div class="mt-1 text-600">
-              2022
+              2023
             </div>
           </div>
           <div class="mt-2 md:mt-0 flex align-items-center">
@@ -157,7 +157,7 @@ export default {
           <div>
             <span class="text-900 font-medium mr-2 mb-1 md:mb-0">James White</span>
             <div class="mt-1 text-600">
-              2021
+              2022
             </div>
           </div>
           <div class="mt-2 md:mt-0 ml-0 md:ml-8 flex align-items-center">
@@ -171,7 +171,7 @@ export default {
           <div>
             <span class="text-900 font-medium mr-2 mb-1 md:mb-0">Putri Indah Ariesta</span>
             <div class="mt-1 text-600">
-              2020
+              2021
             </div>
           </div>
           <div class="mt-2 md:mt-0 ml-0 md:ml-8 flex align-items-center">
@@ -185,7 +185,7 @@ export default {
           <div>
             <span class="text-900 font-medium mr-2 mb-1 md:mb-0">Intan Simanjuntak</span>
             <div class="mt-1 text-600">
-              2019
+              2020
             </div>
           </div>
           <div class="mt-2 md:mt-0 ml-0 md:ml-8 flex align-items-center">
@@ -199,7 +199,7 @@ export default {
           <div>
             <span class="text-900 font-medium mr-2 mb-1 md:mb-0">Anton Purboyo</span>
             <div class="mt-1 text-600">
-              2018
+              2019
             </div>
           </div>
           <div class="mt-2 md:mt-0 ml-0 md:ml-8 flex align-items-center">

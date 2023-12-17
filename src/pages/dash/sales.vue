@@ -47,7 +47,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div><h5><b>Sales Overview, 2023 January</b></h5></div>
+  <div><h5><b>Sales Overview, 2023 December</b></h5></div>
   <div class="grid">
     <div class="col-12 lg:col-6 xl:col-3">
       <div class="card mb-0">
