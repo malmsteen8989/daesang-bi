@@ -16,7 +16,8 @@ export default {
     topbarImage() {
       // return this.$appState.darkTheme ? '/images/logo-white.svg' : '/images/logo-dark.svg';
       // return this.$appState.darkTheme ? '/images/daesang-notext-tiny.png' : '/daesang-notext-tiny.png';
-      return '/images/daesang-notext-tiny.png';
+      // return '/images/daesang-notext-tiny.png';
+      return '/images/dii-tiny.png';
     }
   }
 };
@@ -26,7 +27,7 @@ export default {
   <div class="layout-topbar">
     <NuxtLink to="/" class="layout-topbar-logo">
       <img alt="Logo" :src="topbarImage()">
-      <span>Business Intelligence</span>
+      <h4>Daesang Ingredients Indonesia</h4>
     </NuxtLink>
     <button class="p-link layout-menu-button layout-topbar-button" @click="onMenuToggle">
       <i class="pi pi-bars" />
